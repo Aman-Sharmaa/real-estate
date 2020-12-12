@@ -1,0 +1,442 @@
+
+@media only screen and (max-width: 900px) {
+
+.navbar{
+	width: 50%;
+	height: 50px;
+	margin-top: -10px;
+	margin-left: -10px;
+	padding: 9px;
+	float: left;
+}
+
+.webname{
+	float: left;
+	width: 30%;
+}
+.webname p{
+	font-family: 'Keania One', cursive;
+	font-size: 30px;
+	margin-top: 8px;
+}
+.right-container{
+	float: left;
+	width: 70%;
+}
+.right-container p{
+	float:left;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'poppins',sans-serif;
+    cursor: pointer;
+}
+#home{
+	border-bottom: solid black 1px;
+	line-height: 3rem;
+	margin-top: 5px;
+}
+#signin{
+	margin-left: 80px;
+	padding: 10px;
+	border:solid black 1px;
+	width: 100px;
+	text-align: center;
+	margin-top: 8px;
+	font-family: 'poppins',sans-serif;
+}
+#signup{
+	background-color: black;
+	color: white;
+	padding: 11px;
+	margin-top: 8px;
+	text-align: center;
+	margin-left: 10px;
+	width: 200px;
+	font-family: 'poppins',sans-serif;
+}
+
+.background-image{
+	float: left;
+	width: 100%;
+	height: 600px;
+	margin-left: -10px;
+	padding: 9px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url(skyscraper.jpg);
+}
+.overlay{
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 9px;
+	background-color: rgb(0,0,0,.7);
+	margin-left: -10px;
+	margin-top: -9px;
+}
+.left{
+	width: 50%;
+	height: 103%;
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.left h2{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: 40px;
+	margin-top: 150px;
+	float: left;
+	margin-left: 80px;
+}
+.left button{
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px;
+	background-color:black;
+	font-size: 28px;
+	border:none;
+	font-weight: 900;
+	color:white;
+	margin-left: 80px;
+	cursor: pointer;
+	width: 300px
+
+}
+.right {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.form{
+	width: 400px;
+	height: auto;
+	padding: 20px;
+    margin-left: 100px;
+}
+
+.form label{
+	width: 100%;
+	float: left;
+	font-family: 'poppins',sans-serif;
+	margin-top: 30px;
+	color: white;
+	margin-bottom: 5px;
+	border:none;
+
+}
+
+.form select{
+	width: 100%;
+	float: left;
+	border:none;
+	font-family: 'poppins',sans-serif;
+	height: 40px;
+
+}
+.form option{
+	height: 50px;
+	width: 100%;
+	border:none;
+}
+.form input{
+	width: 100%;
+	height: 40px;
+	float: left;
+	border:none;
+	font-family: 'poppins',sans-serif;
+}
+.form button{
+	width: 100%;
+	float: left;
+	border:none;
+	height: 40px;
+	font-family: 'poppins',sans-serif;
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popular-properties{
+	float: left;
+	width: 100%;
+	padding: 9px;
+	margin-left: -10px;
+	background-color:#1a1a1a;
+	height: auto;
+}
+
+.property-div{
+	width: 340px;
+	height: 500px;
+	margin-left: 50px;
+	margin-top: 40px;
+	float: left;
+	padding: 10px;
+	border-bottom:solid white 12px;
+}
+.popular-properties h1{
+	color: rgb(254, 97, 80);
+	font-family: 'poppins',sans-serif;
+	margin-left: 60px;
+	float: left;
+	width: 100%;
+   margin-top: 50px;
+	background: linear-gradient(90deg,transparent,white);
+
+}
+.property-div .image{
+	width: 340px;
+	height: 200px;
+	float: left;
+		background-image: url(skyscraper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.property-div .location{
+	width: 339px;
+	height: 50px;
+	float: left;
+	border:solid rgb(254, 97, 80) 1px;
+	margin-top: 20px;
+
+}
+.property-div .location p{
+	font-family: 'poppins',sans-serif;
+	color: white;
+	margin-left: 20px;
+
+
+}
+.property-div .name{
+	width: 339px;
+	border:solid rgb(254, 97, 80) 1px;
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+}
+.property-div .name p{
+	font-family: 'poppins',sans-serif;
+	color: white;
+	margin-left: 20px;
+	font-size: 24px;
+	margin-top: 10px;
+
+}
+
+.property-div .price{
+	width: 40%;
+	height: 50px;
+	border:solid rgb(254, 97, 80) 1px;
+	float: left;
+	text-align: center;
+	color: white;
+	font-family: 'poppins',sans-serif;
+	margin-top: 20px;
+	cursor: pointer;
+	
+}
+.property-div .buy{
+	width: 55%;
+	height: 50px;	text-align: center;
+	color: white;
+	background-color:rgb(254, 97, 80);
+	font-family: 'poppins',sans-serif;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+	margin-top:20px;
+	
+}
+.property-div .property-about{
+	width: 339px;
+	border:solid rgb(254, 97, 80) 1px;
+	height: 50px;
+	float: left;
+	margin-top: 30px;
+
+}
+.property-div .property-about p{
+	font-family: 'poppins',sans-serif;
+	float: left;
+	color: rgb(254, 97, 80);
+	margin-left: 25px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.total-project{
+		float: left;
+		width: 100%;
+		margin-left: -10px;
+		padding: 9px;
+		height: 200px;color: rgb(254, 97, 80);
+		margin-top: 80px;
+	}
+
+   .total-project .for-sale{
+      float: left;
+      font-family: 'poppins',sans-serif;
+      color: black;
+      width: 33%;
+      text-align: center;
+
+   }
+   .for-sale h1{
+   	 font-size: 38px;
+   	 color: rgb(254, 97, 80);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   .our-agents{
+   	width: 100%;
+   	height: auto;
+   	margin-left: -10px;
+   	padding: 9px;
+   }
+
+   .our-agents h1{
+	color: rgb(254, 97, 80);
+	font-family: 'poppins',sans-serif;
+	margin-left: 60px;
+	float: left;
+	width: 100%;
+   margin-top: 50px;
+	background: linear-gradient(90deg,transparent,black);
+
+}
+
+   .agents-div{
+   	width: 270px;
+   	height: 350px;
+   	float: left;
+   	margin-left: 40px;
+   	margin-top: 40px;
+   	border-radius: 4px;
+   }
+
+   .agents-image{
+   	background-image: url(skyscraper.jpg);
+   	width: 270px;
+   	height:180px;
+   	float: left;
+   	background-repeat: no-repeat;
+   	background-size: 100%;
+
+   }
+
+   .agents-name{
+   	float: left;
+   	width: 99.9%;
+   	height: auto;
+   	font-family: 'poppins',sans-serif;
+   	font-size: 24px;
+   	color:black;
+   }
+      .agents-positon{
+   	float: left;
+   	width: 100%;
+   	height: auto;
+   	font-family: 'poppins',sans-serif;
+   	font-size: 22px;
+   }
+    .agents-position p{
+   	margin-left: 20px;
+   	font-family: 'poppins',sans-serif;
+   	color: black;
+   }
+   .agents-name p{
+   	margin-left: 20px;
+   	font-family: 'poppins',sans-serif;
+   }
+   .agents-social{
+   	width: 100%;
+
+   }
+
+ .agents-social i{
+ 	width: 20%;
+ 	cursor: pointer;
+ 	color: black;
+ 	text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer{
+ 	width: 100%;
+ 	height: auto;
+ 	margin-top: 50px;
+ 	float: left;
+ }
+
+ .section{
+ 	float: left;
+ 	text-align: center;
+ 	font-family: 'poppins',sans-serif;
+ 	width:25%;
+ }
+
+.section p{
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin-left: 60px;
+	opacity: .8;
+}
+ .section h1{
+ 	font-size: 26px;
+ }
+
+}
